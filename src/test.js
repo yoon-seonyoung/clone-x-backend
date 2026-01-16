@@ -31,3 +31,14 @@ var user2 = {
 };
 console.log(user);
 console.log(user2);
+
+
+try {
+    let numberValue = 1;
+    console.log(numberValue.toUpperCase());
+    console.log(undefinedVariable);
+} catch (error) {
+    console.error(error.name)
+    console.error(error.message)
+}
+console.log("끝!")
